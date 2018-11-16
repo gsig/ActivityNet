@@ -16,7 +16,7 @@
 """Numpy BoxMaskList classes and functions."""
 
 import numpy as np
-import np_box_list
+import ava.np_box_list as np_box_list
 
 
 class BoxMaskList(np_box_list.BoxList):

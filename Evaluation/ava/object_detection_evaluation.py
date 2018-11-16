@@ -33,10 +33,10 @@ import collections
 import logging
 import numpy as np
 
-import standard_fields
-import label_map_util
-import metrics
-import per_image_evaluation
+import ava.standard_fields as standard_fields
+import ava.label_map_util as label_map_util
+import ava.metrics as metrics
+import ava.per_image_evaluation as per_image_evaluation
 
 
 class DetectionEvaluator(object):
